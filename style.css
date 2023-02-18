@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  height: 50vh;
+  min-width: 100vw;
+  font-family: "Montserrat", sans-serif;
+}
+
+#container {
+  display: flex;
+  width: 100%;
+  max-width: 588px;
+  margin: 100px auto 0;
+  padding: 0;
+  background-color: white;
+  border-radius: 10px;
+}
+
+#content {
+  padding: 20px;
+}
+
+#perfum {
+  color: rgb(135, 135, 135);
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  padding: 10px 0;
+}
+
+h1 {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  padding: 0 15px 10px 0;
+}
+
+#descricao {
+  color: rgb(131, 131, 131);
+  font-size: 14px;
+  line-height: 22px;
+  padding: 10px 0;
+}
+
+#preco {
+  display: flex;
+  padding: 20px 0;
+}
+
+#pr1 {
+  font-family: "Fraunces", serif;
+  font-size: 2rem;
+  align-items: center;
+  color: hsl(118, 31%, 45%);
+}
+
+#pr2 {
+  display: flex;
+  padding-left: 20px;
+  font-size: 15px;
+  text-decoration: line-through;
+  align-items: center;
+  justify-content: center;
+}
+
+#container-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  display: flex;
+  border: none;
+  border-radius: 10px;
+  padding: 1rem 4.7rem;
+  font-family: "Montserrat", sans-serif;
+  background-color: hsl(118, 31%, 45%);
+  color: white;
+  font-weight: bold;
+  transition: background 0.2s;
+  cursor: pointer;
+}
+
+button:hover {
+  background: hsl(117, 33%, 31%);
+}
+
+#car {
+  padding: 0 3.2px;
+}
+
+#img-perfume {
+  max-width: 18.5rem;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+footer {
+  font-size: 11px;
+  text-align: center;
+  padding: 20px;
+}
+
+footer a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (min-width: 300px) and (max-width: 880px) {
+  body {
+    width: 100vw;
+  }
+  #container {
+    display: block;
+    max-width: 300px;
+  }
+
+  #img-perfume-mob {
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+
+  #img-perfume {
+    display: none;
+  }
+}
+
+@media only screen and (min-width:1440px) {
+  #img-perfume-mob {
+    display: none;
+  }
+}
