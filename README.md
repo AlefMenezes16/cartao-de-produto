@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor](https://alefmenezes16.github.io/cartao-de-produto/)
 - Live Site URL: [Github Pages](https://alefmenezes16.github.io/cartao-de-produto/)
 
 ## Author
